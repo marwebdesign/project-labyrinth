@@ -67,14 +67,14 @@ const Background = styled.div`
 `
 
 export const InnerWrapperStart = styled.div`
-width: 70%;
-display: flex;
-flex-direction: column;
-align-items: center;
-background-color: rgba(247, 204, 172, 0.7);
-padding: 10px;
-border-radius: 20px;
-border: 2px solid #3A3845;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(247, 204, 172, 0.7);
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #3A3845;
 @media (min-width: 668px) and (max-width: 1024px) {
   width: 70%;
 }
@@ -84,48 +84,48 @@ border: 2px solid #3A3845;
 `
 
 const StartHeader = styled.h1`
-font-family: 'Fondamento', cursive;
-font-size: 27px;
-padding: 15px;
+  font-family: 'Fondamento', cursive;
+  font-size: 27px;
+  padding: 15px;
 
 @media (min-width: 668px) and (max-width: 1024px) {
-font-size: 35px;
+  font-size: 35px;
 }
 @media (min-width: 1025px) {
-font-size: 45px;
+  font-size: 45px;
 }
 `
 
 const StartDescription = styled.h2`
-font-family: 'Montserrat', sans-serif;
-font-size: 20px;
-text-align: center;
-padding-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
 
 @media (min-width: 668px) and (max-width: 1024px) {
-font-size: 25px;
+  font-size: 25px;
 }
 @media (min-width: 1025px) {
-font-size: 28px;
+  font-size: 28px;
 }
 `
 
 const StartDetails = styled.h4`
-font-family: 'Montserrat', sans-serif;
-font-size: 15px;
-font-weight: 300;
-padding-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  padding-bottom: 20px;
 
 @media (min-width: 668px) and (max-width: 1024px) {
-font-size: 20px;
+  font-size: 20px;
 }
 @media (min-width: 1025px) {
-font-size: 22px;
+  font-size: 22px;
 }
 `
 
 const InputField = styled.input`
-width: 90%;
-padding: 5px;
-border-radius: 5px;
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
 `

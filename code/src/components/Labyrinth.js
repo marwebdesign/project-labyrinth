@@ -55,14 +55,14 @@ const Background = styled.div`
 `
 
 const InnerWrapperLabyrinth = styled.div`
-width: 70%;
-display: flex;
-flex-direction: column;
-align-items: center;
-background-color: rgba(247, 204, 172, 0.7);
-padding: 10px;
-border-radius: 20px;
-border: 2px solid #3A3845;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(247, 204, 172, 0.7);
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #3A3845;
 @media (min-width: 668px) and (max-width: 1024px) {
   width: 70%;
 }
@@ -72,46 +72,46 @@ border: 2px solid #3A3845;
 `
 
 const Content = styled.div`
-height: auto;
-display: flex;
-flex-direction: column;
-align-items: center;
-margin-top: 5px;
-margin-bottom: 20px;
-border: 1px dotted #826F66;
-border-radius: 7px;
-padding: 0px 10px 5px 10px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px dotted #826F66;
+  border-radius: 7px;
+  padding: 0px 10px 5px 10px;
 `
 
 const Descriptiontext = styled.h2`
-font-family: 'Fondamento', cursive;
-font-size: 20px;
-text-align: center;
-padding: 15px 5px;
+  font-family: 'Fondamento', cursive;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 5px;
 
 @media (min-width: 668px) and (max-width: 1024px) {
-font-size: 30px;
+  font-size: 30px;
 }
 @media (min-width: 1025px) {
-font-size: 35px;
+  font-size: 35px;
 }
 `
 
 const Clues = styled.p`
-text-align: center;
-padding-top: 15px;
-font-size: 12px;
-font-weight: 600;
-font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
 
 @media (min-width: 668px) and (max-width: 1024px) {
-font-size: 16px;
+  font-size: 16px;
 }
 @media (min-width: 1025px) {
-font-size: 20px;
+  font-size: 20px;
 }
 `
 
 const Emoji = styled.span`
-font-size: 50px;
+  font-size: 50px;
 `

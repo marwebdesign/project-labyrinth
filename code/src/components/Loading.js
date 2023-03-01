@@ -36,7 +36,7 @@ const Paragraph = styled.p`
   padding: 5px;
   background-color: rgba(247, 204, 172, 0.7);
 
-  @media (min-width: 668px) and (max-width: 1024px) {
+@media (min-width: 668px) and (max-width: 1024px) {
  font-size: 35;
 }
 @media (min-width: 1025px) {
